@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class AtteluParslegsana : MonoBehaviour {
     public GameObject mainigaisAttels;
     public Sprite[] atteluMasivs;
+    public GameObject garumaSlaideris;
 
     public void izkritosais(int skaitlis)
     {
@@ -19,5 +20,9 @@ public class AtteluParslegsana : MonoBehaviour {
             mainigaisAttels.GetComponent<Image>().sprite = atteluMasivs[2];
         Debug.Log("Nav piesaistīts attēls!");
     }
+
+    
+
+
 
 }
